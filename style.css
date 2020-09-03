@@ -1,0 +1,244 @@
+/***
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+***/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+}
+
+/**header part starts**/
+header{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55%;
+}
+
+.header-nav {
+    width: 70%;
+    float: right;
+}
+
+.header-nav ul {
+    float: right;
+}
+
+.header-nav ul li {
+    float: left;
+    list-style: none;
+    cursor: pointer;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 85px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.header-nav ul li:hover{
+    color: black;
+}
+/**header part ends**/
+/**banner part starts**/
+.banner{
+    padding-top: 50px;
+}
+
+.b_img img{
+    width: 100%;
+}
+/**banner part ends**/
+/**gateaway part starts**/
+.gateaway{
+    padding: 90px 0;
+}
+
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.g_content{
+
+}
+
+.light{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.c_title{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0 30px;
+}
+
+.c_parag{
+    margin-top: 0;
+    margin-bottom: 45px;
+    line-height: 22px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+}
+/**gateaway part ends**/
+/**blog part starts**/
+.blog{
+
+}
+
+.b_content{
+    overflow: hidden;
+}
+
+.single-item{
+    width: 45%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.single-item:nth-child(even){
+    margin-left: 10%;
+}
+
+.single-item img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+/**blog part ends**/
+/**newsletter part starts**/
+.container3 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.newsletter{
+    background-color: #e0e0e0;
+    padding: 70px 0;
+    margin-bottom: 100px;
+}
+
+.n_content{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.n_content h2{
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+form input{
+    color: #626262;
+    background-color: #e0e0e0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-right: 20%;
+}
+
+form button{
+    background-color: #626262;
+    margin-left: 1%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+/**newsletter part ends**/
+/**load-more part starts**/
+.load{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.load button{
+    width: 165px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid #626262;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.load button:hover{
+    color: white;
+    background-color: #626262;
+}
+/**load-more part ends**/
+/**footer part starts**/
+footer{
+    background-color: #e0e0e0;
+}
+
+.terms{
+    width: 55%;
+    float: left;
+}
+
+.terms ul{
+    overflow: hidden;
+}
+
+.terms ul li{
+    color: black;
+    float: left;
+    list-style: none;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.terms ul li a{
+    text-decoration: none;
+}
+.terms ul li a:hover{}
+
+.follow{
+    width: 40%;
+    float: right;
+}
+
+.follow ul{
+    overflow: hidden;
+    margin-right: 5%;
+}
+
+.follow ul li{
+    color: black;
+    float: right;
+    list-style: none;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.follow ul li a{
+    text-decoration: none;
+}
+.follow ul li a:hover{}
+/**footer part ends**/
