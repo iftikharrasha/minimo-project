@@ -165,16 +165,20 @@ form input{
 }
 
 form button{
-    background-color: #626262;
+    background-color: #ffffff;
     margin-left: 1%;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 20px;
     cursor: pointer;
+}
+
+form button img{
+    width: 13px;;
 }
 /**newsletter part ends**/
 /**load-more part starts**/
 .load{
-    padding: 100px 0;
+    padding: 0 0 100px 0;
     text-align: center;
 }
 
