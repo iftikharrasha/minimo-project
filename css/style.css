@@ -35,25 +35,24 @@ header{
 }
 
 .header-nav {
-    width: 70%;
+    width: 75%;
     float: right;
 }
 
 .header-nav ul {
-    float: right;
 }
 
 .header-nav ul li {
     float: left;
     list-style: none;
     cursor: pointer;
+    margin: 0 0 0 17%;
+    text-transform: uppercase;
 }
 
 .header-nav ul li a {
     text-decoration: none;
-    text-transform: uppercase;
     display: inline-block;
-    padding: 0 85px;
     font-size: 16px;
     transition: 0.2s;
     text-transform: uppercase;
