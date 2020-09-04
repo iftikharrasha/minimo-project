@@ -48,7 +48,9 @@ header{
     cursor: pointer;
     margin: 0 0 0 17%;
     text-transform: uppercase;
+    border-bottom: 1px solid transparent;
 }
+
 
 .header-nav ul li a {
     text-decoration: none;
@@ -59,7 +61,7 @@ header{
 }
 
 .header-nav ul li:hover{
-    color: black;
+    border-bottom: 1px solid #626262;
 }
 /**header part ends**/
 /**banner part starts**/
@@ -161,6 +163,10 @@ form input{
     border: none;
     border-bottom: 1px solid black;
     padding-right: 20%;
+}
+
+form input:focus{
+    outline: none;
 }
 
 form button{
