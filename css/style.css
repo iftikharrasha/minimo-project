@@ -60,6 +60,10 @@ header{
     text-transform: uppercase;
 }
 
+.header-nav ul li:last-child a {
+    padding-right: 0;
+}
+
 .header-nav ul li:hover{
     border-bottom: 1px solid #626262;
 }
@@ -267,3 +271,51 @@ footer{
 }
 .follow ul li a:hover{}
 /**footer part ends**/
+
+
+/**media query**/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+        padding-top: 17px;
+    }
+
+    .logo img {
+        width: 65%;
+    }
+
+    .header-nav ul li {
+        margin: 0 0 0 10%;
+    }
+
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo {
+        padding-top: 16px;
+    }
+
+    .logo img {
+        width: 65%;
+    }
+
+    .header-nav ul li {
+        margin: 0 0 0 13%;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	
+}
