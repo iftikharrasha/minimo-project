@@ -1,13 +1,10 @@
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .header-nav {
-        width: 75%;
-        float: right;
-        display: none;
-    }
 
     .logo {
-        width: 30%;
+        width: 35%;
+        padding-top: 18px;
     }
 
     .single-item {
@@ -42,15 +39,84 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+        padding-top: 17px;
+    }
 
+    .logo img {
+        width: 65%;
+    }
+
+    .header-nav ul li {
+        margin: 0 0 0 10%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo {
+        padding-top: 16px;
+    }
 
+    .logo img {
+        width: 65%;
+    }
+
+    .header-nav ul li {
+        margin: 0 0 0 13%;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .ham-none{
+		display:none;
+	}
 }
+
+
+/*----------------------------*\
+	responsive nav
+\*----------------------------*/
+
+@media only screen and (max-width: 991px) {
+    .hamburger-menu .menu-toggle {
+      display: inline-block;
+    }
+	
+    #responsive-nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: #b6b6b6;
+      height: 100vh;
+      max-width: 250px;
+      width: 0%;
+      overflow: hidden;
+      z-index: 22;
+      padding-top: 60px;
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+      -webkit-transition: 0.2s all;
+      transition: 0.2s all;
+    }
+    #responsive-nav.active {
+      -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+      transform: translateX(0%);
+      width: 100%;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 20px 0px;
+    }
+
+    .header-nav ul li {
+        float: none;
+    }
+    .header-nav ul li:hover{
+        border-bottom: 1px solid #626262;
+    }
+  }

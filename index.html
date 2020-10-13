@@ -21,15 +21,48 @@
             <div class="logo">
                 <img src="images/logo.png" alt="minimo">
             </div>
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="#lifestyle"></a>Lifestyle</li>
-                    <li><a href="#Photodiary"></a>Photodiary</li>
-                    <li><a href="#Music"></a>Music</li>
-                    <li><a href="#Travel"></a>Travel</li>
-                </ul>
+
+            <div class="hamburger-menu">
+                <!-- Menu Toogle -->
+                <div class="menu-toggle">
+                    <a href="#">
+                        <i class="fa fa-bars">
+                        </i>
+                    </a>
+                </div>
+                <!-- /Menu Toogle -->
+            </div>
+
+            <nav class="header-nav" id="navigation">
+                <div id="responsive-nav">
+                    <ul class="nav">
+                        <li><a href="#lifestyle"></a>Lifestyle</li>
+                        <li><a href="#Photodiary"></a>Photodiary</li>
+                        <li><a href="#Music"></a>Music</li>
+                        <li><a href="#Travel"></a>Travel</li>
+                    </ul>
+                </div>
             </nav>
         </div>
+
+        <!--<div class="col-md-7 ham-none">
+                <nav id="navigation">
+                    <div id="responsive-nav">
+                        <ul class="main-nav nav navbar-nav ham-none">
+                            <li>
+                                <a href="../control/dashboard.php">
+                                    <i class="fa fa-tachometer">
+                                    </i>
+                                    <span class="v_active">Admin Panel
+                                    </span>
+                                    <div class="clearfix">
+                                    </div>
+                                </a>
+                            </li>
+                        <ul>
+                    </div>
+                </nav>
+            </div>-->
     </header>
     <!--header part ends-->
 
@@ -199,6 +232,9 @@
         </div>
     </footer>
     <!--footer part ends-->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
